@@ -1,17 +1,7 @@
-# Pasos a seguir
 
-1. Descomprimo
-2. Abrirlo en Visual Studio Code
-3. Abro la consola
-4. Recupero las depedencias (Los paquetes, las librerías)
+Nombre: Jonathan Walter Romero
 
-```sh
-npm i # npm install
-```
+Repositorio de GitHub: https://github.com/scrolldev/jonathan-romero-desafio-05
 
-5. Levanto el servidor de desarrollo
-
-```sh
-npm run dev
-```  
+Link Netlify: 
 
