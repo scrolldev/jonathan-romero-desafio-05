@@ -5,10 +5,14 @@ body {
 }
   
 header {
-    background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    font-size: 30px;
+    padding: 100px 0;
+    background-image:url(../public/img/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
   
 header h1 {
@@ -19,10 +23,52 @@ main {
     padding: 20px;
 }
 
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
 .produc {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produc2 {
+    max-width: 800px;
+}
+
+.produc h2 {
+    margin-top: 0;
+}
+
+.produc h3 {
+    line-height: 1.5;
+}
+
+.produc img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produc button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.produc button:hover {
+    background-color: #555;
 }
 
 article {
@@ -65,5 +111,5 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 50px 0;
 }
