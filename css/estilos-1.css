@@ -4,11 +4,113 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-primary: #E11364;
+    --color-secondary: #BC105C;
+    --color-button: #2C8F20;
+    --color-button_secon: #E92763;
+    --color-titles: #FFFFFF;
+    --color-sub_titles: #9C0037;
+    --color-footer: #E96093;
+  }
+
 body {
-    background-color: #E11364;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-primary);
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 header {
-    background-color: #BC105C;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    background-color: var(--color-secondary);
 }
 
+h1 {
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--color-secondary);
+}
+
+.produc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+h3 {
+    border-bottom: 2px dotted;
+    margin-bottom: 10px;
+    color: var(--color-sub_titles);
+    text-align: end;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    font-size: 10px;
+    margin: 5px 0 5px 0; 
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-button);
+    color: var(--color-titles);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--color-button_secon);
+}
+
+footer {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: var(--color-footer);
+    color: var(--color-titles);
+    border-radius: 5px;
+}
